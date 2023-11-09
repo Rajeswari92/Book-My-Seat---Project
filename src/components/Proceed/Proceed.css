@@ -1,0 +1,36 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-card {
+  background-color: #eae0e0;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 17px;
+  box-shadow: 0 0 10px rgba(123, 24, 24, 0.3);
+  z-index: 2000;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 55px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #fff;
+  color: rgb(159, 12, 12);
+  border-radius: 50%;
+}

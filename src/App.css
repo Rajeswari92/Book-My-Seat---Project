@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@1,9..40,300&family=Griffy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_container_inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  background-image: url("../src/images/header.webp");
+  background-size: cover;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(218, 28, 28, 0.2);
+  position: sticky;
+  font-family: "Griffy", sans-serif;
+  letter-spacing: 4px;
+}
+.header h2 {
+  font-size: 26px;
+  color: aquamarine;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.header p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.header p:first-of-type {
+  font-weight: bold;
+}
+
+.dropdown {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  gap: 20px;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.dropdown:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+#tickettype {
+  font-size: 18px;
+}
+#qty {
+  font-size: 18px;
+}
+.App {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.left {
+  margin-left: 40px;
+}
+
+.right {
+  margin-top: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.right ul {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.right ul li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.right ul li img {
+  width: 3.5%;
+  height: 40px;
+}
+
+.available {
+  filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(212deg)
+    brightness(104%) contrast(104%);
+}
+.unavailable {
+  filter: invert(15%) sepia(99%) saturate(7455%) hue-rotate(2deg)
+    brightness(101%) contrast(106%);
+}
+
+.yourselection {
+  filter: invert(95%) sepia(41%) saturate(6882%) hue-rotate(54deg)
+    brightness(90%) contrast(108%);
+}

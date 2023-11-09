@@ -1,0 +1,73 @@
+.container {
+  padding-top: 50px;
+  max-width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rgb(155, 43, 43);
+}
+.selected {
+  filter: invert(90%) sepia(49%) saturate(6887%) hue-rotate(59deg)
+    brightness(90%) contrast(108%);
+}
+
+.booked {
+  filter: invert(15%) sepia(99%) saturate(7455%) hue-rotate(2deg)
+    brightness(101%) contrast(106%);
+}
+
+.seat {
+  filter: invert(0%) sepia(0%) saturate(1924%) hue-rotate(288deg)
+    brightness(90%) contrast(106%);
+}
+
+.size {
+  width: 30px;
+  height: 35px;
+}
+.hover:hover {
+  cursor: pointer;
+  filter: invert(95%) sepia(41%) saturate(6882%) hue-rotate(54deg)
+    brightness(90%) contrast(108%);
+}
+
+.premiumcolor {
+  filter: invert(60%) sepia(23%) saturate(511%) hue-rotate(31deg)
+    brightness(80%) contrast(83%);
+}
+
+.pay_btn {
+  padding: 20px;
+  font-size: 16px;
+  position: relative;
+  left: 40%;
+  box-shadow: 3px 4px 3px 2px rgb(104, 130, 104);
+  background: transparent;
+  color: #160f0f;
+  font-weight: bold;
+  border: 4px solid #a1926f;
+  cursor: pointer;
+  border-radius: 17px;
+  bottom: 100px;
+  line-height: 0px;
+}
+
+.pay_btn:hover {
+  color: rgb(96, 107, 78);
+}
+
+.imageScreen {
+  margin: auto;
+  margin-top: 3%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+  color: #2b21f4;
+}
